@@ -1,0 +1,50 @@
+<!doctype.html>
+<html>
+<head>
+     <title>java script03.2</title>
+</head>
+<body>
+<script>
+// sum-4-(1) find method//
+					 const employees = [
+						 { name: "David Carlson", age: 30 },
+						 { name: "John Cena", age: 34 },
+						 { name: "Mike Sheridan", age: 25 },
+						 { name: "John Carte", age: 50 }
+						];
+						const employee = employees.find(function (employee) {
+							  return employee.name.indexOf('John')>-1;
+							});
+
+												console.log(employee);
+				
+<!-- //sum-4-(2)  findindex method// -->
+						  const employeesname = [
+						 { name: "David Carlson", age: 30 },
+						 { name: "John Cena", age: 34 },
+						 { name: "Mike Sheridan", age: 25 },
+						 { name: "John Carte", age: 50 }
+						];
+						const index = employeesname.findIndex(function (employee) {
+						  return employee.name.indexOf('John') > -1;
+						});
+
+						console.log(index);
+//sum-5 filter method//
+						<!-- const employees2 = [ -->
+									  <!-- { name: 'David Carlson', age: 30 }, -->
+									  <!-- { name: 'John Cena', age: 34 }, -->
+									  <!-- { name: 'Mike Sheridan', age: 25 }, -->
+							
+
+							<!-- { name: 'John Carte', age: 50 } -->
+									<!-- ]; -->
+
+					<!-- const employe = employees2.filter(function (employee) { -->
+					  <!-- return employee.name.indexOf('John') > -1; -->
+					<!-- }); -->
+					<!-- console.log(employe); -->
+					<!-- document.write("<br>",JSON.stringify(employe)); -->
+					</script>
+</body>
+</html>
